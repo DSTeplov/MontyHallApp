@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="ru.dmitry.montyhallapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_weight="0.2"
+        android:src="@drawable/doors" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/modChoice"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <br.com.bloder.magic.view.MagicButton
+            android:id="@+id/mgcbtn_exp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:button_icon="@drawable/poll_black2"
+            app:button_icon_height="25dp"
+            app:button_icon_width="25dp"
+            app:hide_text="Эксперимент"
+            app:hide_text_color="@android:color/black"
+            app:magic_button_size="50dp" />
+
+        <br.com.bloder.magic.view.MagicButton
+            android:id="@+id/mgcbtn_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:button_icon="@drawable/video_game"
+            app:button_icon_height="25dp"
+            app:button_icon_width="25dp"
+            app:hide_text="Игра"
+            app:hide_text_color="@android:color/black"
+            app:magic_button_size="50dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MontyHallApp</string>
+    <string name="modChoice">Выберите режим:</string>
+    <string name="Choice">Выбрать</string>
+    <string name="tv_changequestion">Вам предлагается изменить выбор!</string>
+    <string name="btn_notChangeChoice">Не изменять выбор</string>
+    <string name="btn_changeChoice">Изменить выбор</string>
+    <string name="btn_newGame">Начать заново</string>
+    <string name="tv_youWinText">Вы выиграли:</string>
+    <string name="rtv_Count">Выберите количество испытаний (1 - 3.000.000):</string>
+    <string name="rtv_choiceStr">Выберите стратегию:</string>
+    <string name="rtv_changeChoice">Изменять выбор</string>
+    <string name="rbtn_notChangeChoice">Не изменять выбор</string>
+</resources>
